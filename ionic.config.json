@@ -1,0 +1,7 @@
+{
+  "name": "ionic-okta-widget-starter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
