@@ -31,7 +31,9 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
+            "styles": ["src/theme/variables.scss", "src/global.scss",
+              "node_modules/@okta/okta-signin-widget/dist/css/okta-sign-in.min.css"
+            ],
             "scripts": [],
             "aot": false,
             "vendorChunk": true,

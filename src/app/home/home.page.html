@@ -3,6 +3,7 @@
     <ion-title>
       Blank
     </ion-title>
+    <ion-button (click)="signOut()">Sign Out</ion-button>
   </ion-toolbar>
 </ion-header>
 
@@ -14,6 +15,8 @@
   </ion-header>
 
   <div id="container">
+    <p>userInfo:</p>
+    <p>{{ userInfo }}</p>
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
